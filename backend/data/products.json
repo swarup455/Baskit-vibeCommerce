@@ -1,0 +1,10 @@
+[
+  { "id": "p1", "name": "Indigo Tee", "price": 499, "image": "https://picsum.photos/seed/p1/600/600", "description": "Soft cotton crew-neck.", "stock": 24 },
+  { "id": "p2", "name": "Minimal Hoodie", "price": 1299, "image": "https://picsum.photos/seed/p2/600/600", "description": "Cozy fleece, relaxed fit.", "stock": 12 },
+  { "id": "p3", "name": "Canvas Tote", "price": 349, "image": "https://picsum.photos/seed/p3/600/600", "description": "Everyday carry bag.", "stock": 40 },
+  { "id": "p4", "name": "Sports Bottle", "price": 299, "image": "https://picsum.photos/seed/p4/600/600", "description": "BPA-free, 750ml.", "stock": 33 },
+  { "id": "p5", "name": "Wireless Earbuds", "price": 1999, "image": "https://picsum.photos/seed/p5/600/600", "description": "AAC/BT 5.3, 20h play.", "stock": 9 },
+  { "id": "p6", "name": "Desk Lamp", "price": 899, "image": "https://picsum.photos/seed/p6/600/600", "description": "Dimmable, USB-C.", "stock": 15 },
+  { "id": "p7", "name": "Notebook Set", "price": 249, "image": "https://picsum.photos/seed/p7/600/600", "description": "3× A5 dotted.", "stock": 60 },
+  { "id": "p8", "name": "Travel Mug", "price": 449, "image": "https://picsum.photos/seed/p8/600/600", "description": "Insulated stainless.", "stock": 22 }
+]

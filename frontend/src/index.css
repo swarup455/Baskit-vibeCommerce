@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    body {
+        @apply bg-white dark:bg-zinc-900 text-zinc-900 dark:text-white
+    }
+}
+
+.Toastify__toast {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    min-height: 60px;
+}
+
+.Toastify__toast-container--top-right {
+    width: 280px;
+    right: 10px;
+}
+
+@media (max-width: 600px) {
+    .Toastify__toast-container--top-right {
+        width: 90%;
+        right: 5%;
+        left: 5%;
+    }
+
+    .Toastify__toast {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
+}
